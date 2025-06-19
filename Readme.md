@@ -162,6 +162,14 @@ export class CounterComponent {
 
 ### Quando usar o NgRx Signal Store dentro do Moka Web
 
+Situações em que seria interessante usar o NgRx dentro do Moka Web:
+
+1. Para gerenciar o estado de autenticação e dados do usuário, principalmente agora com a nova features de exibir o nome do usuário no header da aplicação.
+2. Para gerenciar estilos e cores de acordo com o usuário, por exemplo, quando um usuário Itaú entrar, trazer via API suas cores, e usar nos compontes esses dados.
+3. Para gerenciar os dados de filtros, como por exemplo, os filtros de Locais, que usam os mesmo dados, e podem ser gerenciados de forma centralizada na aplicação.
+4. Com a adição das novas features de relatórios inteligentes, que é um componente reutilizavel, que normalmente usa dados de filtros de prédios seria uma boa usar o NgRx também.
+5. Para alguns dashboards, como eventos e alarmes, que tem a paginação implementadas, pode ser uma boa usar o Signals Store para guardar e gerenciar os dados das tabelas, que podem mudar facilmente à uma interação do usuário, como mudar a página ou ordenar alguma coluna.
+
 ### Vantagens e Desvantagens do NgRx Signal Store
 
 #### Vantagens
