@@ -186,3 +186,5 @@ Situações em que seria interessante usar o NgRx dentro do Moka Web:
 2. Sobrecarga em aplicações simples.
 
 ## Conclusão
+
+O padrão Redux ajuda no gerenciamento de estado e usando o NgRx Signal Store, que aplica esse padrão de forma simples e reativa no angular, é possível melhorar ainda mais a aplicação frontend do Moka Web, usando em casos onde o estado é compartilhado ou precisa reagir rápido às mudanças.
