@@ -40,7 +40,7 @@ Esse padrão garante transparência, previsibilidade e manutenabilidade.
 
 ## Quais problemas o Redux resolve
 
-Quando as aplicações frontend se tornam mais interativas e robustas, e o Redux foi criado para centralizar o estado de uma aplicação, com isso padronizar como ele é alterado e garantir um fluxo de dados melhor estruturadi.
+Quando as aplicações frontend se tornam mais interativas e robustas, e o Redux foi criado para centralizar o estado de uma aplicação, com isso padronizar como ele é alterado e garantir um fluxo de dados melhor estruturado.
 
 - Estado distribuido entre componentes: Em aplicações com muitos componentes reutilizaveis, manter os dados sincronizados entre eles sem uma estrutura central (Redux), normalmente gera inconsistências e códigos duplicados.
 - Fluxo de dados dificil de rastrear: quando vários eventos podem alterar o estado em diferentes partes da aplicação, entender onde e o que gerou alguma mudança pode ser dificil.
@@ -50,7 +50,7 @@ Quando as aplicações frontend se tornam mais interativas e robustas, e o Redux
 
 ## Quando usar o Redux
 
-O Redux, por ser uma ferramenta muito poderosa, é indica a ser usada em aplicações onde gerenciamento de estado complexos são necessários.
+O Redux, por ser uma ferramenta muito poderosa, é indicada ser usada em aplicações onde gerenciamento de estado complexos são necessários.
 
 As principais situações que se encaixa são:
 
